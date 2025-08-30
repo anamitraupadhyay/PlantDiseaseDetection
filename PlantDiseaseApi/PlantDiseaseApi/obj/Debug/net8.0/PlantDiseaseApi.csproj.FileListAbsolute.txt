@@ -1,0 +1,6 @@
+c:\Users\anami\OneDrive\Desktop\PlantDiseaseApi\PlantDiseaseApi\obj\Debug\net8.0\rpswa.dswa.cache.json
+c:\Users\anami\OneDrive\Desktop\PlantDiseaseApi\PlantDiseaseApi\obj\Debug\net8.0\PlantDiseaseApi.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\anami\OneDrive\Desktop\PlantDiseaseApi\PlantDiseaseApi\obj\Debug\net8.0\PlantDiseaseApi.AssemblyInfoInputs.cache
+c:\Users\anami\OneDrive\Desktop\PlantDiseaseApi\PlantDiseaseApi\obj\Debug\net8.0\PlantDiseaseApi.AssemblyInfo.cs
+c:\Users\anami\OneDrive\Desktop\PlantDiseaseApi\PlantDiseaseApi\obj\Debug\net8.0\PlantDiseaseApi.csproj.CoreCompileInputs.cache
+c:\Users\anami\OneDrive\Desktop\PlantDiseaseApi\PlantDiseaseApi\obj\Debug\net8.0\PlantDiseaseApi.MvcApplicationPartsAssemblyInfo.cache

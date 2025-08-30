@@ -1,0 +1,57 @@
+﻿@page "/"
+@using PlantDiseasePOJOS;
+@inject HttpClient Http
+
+<div class="container my-5">
+    <h3 class="mb-4 text-center">Plant Disease Detection</h3>
+
+<EditForm Model="@input" OnValidSubmit="analyze">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputText @bind-Value="input.Foldername" placeholder="Foldername" class="form-control mb-2" />
+    <InputText @bind-Value="input.Filename" placeholder="Filename" class="form-control mb-2" />
+    
+    <button type="submit" class="btn btn-primary w-100">Analyze</button>
+</EditForm>
+
+
+    @if (result is not null)
+    {
+        <div class="mt-4">
+            @foreach (var analysis in result.PlantAnalysis)
+            {
+                <div class="card mb-3 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">@analysis.PlantName (@analysis.ScientificPlantName)</h5>
+                        <p class="card-text"><strong>Status:</strong> @analysis.Status (@analysis.DetectionConfidencePercent% confidence)</p>
+                        <p class="card-text"><strong>Disease:</strong> @analysis.DiseaseName (@analysis.DiseaseConfidencePercent% confidence)</p>
+                        <p class="card-text"><strong>Observation:</strong> @analysis.PrimaryObservation</p>
+                        <p class="card-text"><strong>Severity:</strong> @analysis.Severity</p>
+                        <p class="card-text"><strong>Spread Risk:</strong> @analysis.SpreadRisk</p>
+                        <p class="card-text"><strong>Short Term:</strong> @analysis.RecommendedShortTermAction</p>
+                        <p class="card-text"><strong>Long Term:</strong> @analysis.RecommendedLongTermAction</p>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    private InputPOJO input = new(); 
+    private OutputPOJO? result;
+
+    private async Task analyze()
+    {
+        var response = await Http.PostAsJsonAsync("/api/analyze", input);
+        if (response.IsSuccessStatusCode)
+        {
+            result = await response.Content.ReadFromJsonAsync<OutputPOJO>();
+        }
+        else
+        {
+            result = null;
+        }
+    }
+}

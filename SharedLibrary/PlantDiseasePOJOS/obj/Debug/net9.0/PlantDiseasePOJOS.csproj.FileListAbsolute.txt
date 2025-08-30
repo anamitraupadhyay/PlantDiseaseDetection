@@ -1,0 +1,11 @@
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\obj\Debug\net9.0\PlantDiseasePOJOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\obj\Debug\net9.0\PlantDiseasePOJOS.AssemblyInfoInputs.cache
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\obj\Debug\net9.0\PlantDiseasePOJOS.AssemblyInfo.cs
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\obj\Debug\net9.0\PlantDiseasePOJOS.csproj.CoreCompileInputs.cache
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\bin\Debug\net9.0\PlantDiseasePOJOS.deps.json
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\bin\Debug\net9.0\PlantDiseasePOJOS.dll
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\bin\Debug\net9.0\PlantDiseasePOJOS.pdb
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\obj\Debug\net9.0\PlantDiseasePOJOS.dll
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\obj\Debug\net9.0\refint\PlantDiseasePOJOS.dll
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\obj\Debug\net9.0\PlantDiseasePOJOS.pdb
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\obj\Debug\net9.0\ref\PlantDiseasePOJOS.dll

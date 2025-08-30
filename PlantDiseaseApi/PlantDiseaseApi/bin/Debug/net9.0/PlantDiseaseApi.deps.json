@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "PlantDiseaseApi/1.0.0": {
+        "dependencies": {
+          "PlantDiseasePOJOS": "1.0.0"
+        },
+        "runtime": {
+          "PlantDiseaseApi.dll": {}
+        }
+      },
+      "PlantDiseasePOJOS/1.0.0": {
+        "runtime": {
+          "PlantDiseasePOJOS.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PlantDiseaseApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PlantDiseasePOJOS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
