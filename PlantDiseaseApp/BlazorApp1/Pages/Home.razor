@@ -1,20 +1,20 @@
 ﻿@page "/"
-@using PlantDiseasePOJOS;
+@using PlantDiseasePOJOS
+@using Microsoft.AspNetCore.Components.Forms
 @inject HttpClient Http
 
 <div class="container my-5">
     <h3 class="mb-4 text-center">Plant Disease Detection</h3>
 
-<EditForm Model="@input" OnValidSubmit="analyze">
-    <DataAnnotationsValidator />
-    <ValidationSummary />
+    <EditForm Model="@input" OnValidSubmit="analyze">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
 
-    <InputText @bind-Value="input.Foldername" placeholder="Foldername" class="form-control mb-2" />
-    <InputText @bind-Value="input.Filename" placeholder="Filename" class="form-control mb-2" />
-    
-    <button type="submit" class="btn btn-primary w-100">Analyze</button>
-</EditForm>
+        <InputText @bind-Value="input.Foldername" placeholder="Folder Name" class="form-control mb-2" />
+        <InputFile OnChange="OnFileSelected" class="form-control mb-2" />
 
+        <button type="submit" class="btn btn-primary w-100">Analyze</button>
+    </EditForm>
 
     @if (result is not null)
     {
@@ -24,8 +24,10 @@
                 <div class="card mb-3 shadow-sm">
                     <div class="card-body">
                         <h5 class="card-title">@analysis.PlantName (@analysis.ScientificPlantName)</h5>
-                        <p class="card-text"><strong>Status:</strong> @analysis.Status (@analysis.DetectionConfidencePercent% confidence)</p>
-                        <p class="card-text"><strong>Disease:</strong> @analysis.DiseaseName (@analysis.DiseaseConfidencePercent% confidence)</p>
+                        <p class="card-text"><strong>Status:</strong> @analysis.Status (@analysis.DetectionConfidencePercent%
+                            confidence)</p>
+                        <p class="card-text"><strong>Disease:</strong> @analysis.DiseaseName
+                            (@analysis.DiseaseConfidencePercent% confidence)</p>
                         <p class="card-text"><strong>Observation:</strong> @analysis.PrimaryObservation</p>
                         <p class="card-text"><strong>Severity:</strong> @analysis.Severity</p>
                         <p class="card-text"><strong>Spread Risk:</strong> @analysis.SpreadRisk</p>
@@ -39,12 +41,27 @@
 </div>
 
 @code {
-    private InputPOJO input = new(); 
+    private InputPOJO input = new();
+    private IBrowserFile? selectedFile;
     private OutputPOJO? result;
 
     private async Task analyze()
     {
-        var response = await Http.PostAsJsonAsync("/api/analyze", input);
+        if (selectedFile is null || string.IsNullOrWhiteSpace(input.Foldername))
+            return;
+
+        var content = new MultipartFormDataContent();
+
+        // add folder name
+        content.Add(new StringContent(input.Foldername), "Foldername");
+
+        // add file
+        var streamContent = new StreamContent(selectedFile.OpenReadStream(10 * 1024 * 1024)); // 10 MB limit
+        content.Add(streamContent, "File", selectedFile.Name);
+
+        var response = await Http.PostAsync("http://localhost:5172/api/analyze", content);
+
+
         if (response.IsSuccessStatusCode)
         {
             result = await response.Content.ReadFromJsonAsync<OutputPOJO>();
@@ -53,5 +70,11 @@
         {
             result = null;
         }
+    }
+
+    private void OnFileSelected(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+        input.Filename = selectedFile.Name;
     }
 }

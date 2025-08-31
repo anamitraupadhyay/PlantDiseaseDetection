@@ -45,8 +45,6 @@ C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Win32.Registry.8nfqsezyx3.wasm
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\mscorlib.qiu3j3msqk.wasm
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\netstandard.lp03u0xxi4.wasm
-C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\PlantDiseasePOJOS.rlb6lfah1s.pdb
-C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\PlantDiseasePOJOS.zika5eaegw.wasm
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\System.AppContext.fw4d0g3f7l.wasm
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\System.Buffers.8rbxcdf1qr.wasm
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\System.Collections.Concurrent.5fvwaxvav2.wasm
@@ -257,7 +255,6 @@ C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Logging.9y6pcj4d20.wasm.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\System.Xml.XDocument.22jquvuauc.wasm.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.e5quh77ooy.wasm.gz
-C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\PlantDiseasePOJOS.rlb6lfah1s.pdb.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\System.Security.AccessControl.1f4h9q7gw2.wasm.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\System.Windows.b0yj3ltu3n.wasm.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\Microsoft.VisualBasic.v6jbg8di1z.wasm.gz
@@ -303,7 +300,6 @@ C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\System.Collections.Specialized.7u2lxedh4o.wasm.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Numerics.4whrkr4q9d.wasm.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\System.Threading.hvg31tioq5.wasm.gz
-C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\PlantDiseasePOJOS.zika5eaegw.wasm.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\System.Private.CoreLib.9ecf2cskpd.wasm.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\System.Linq.Expressions.35e0aplt66.wasm.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Primitives.6ymn4wtgeh.wasm.gz
@@ -819,7 +815,6 @@ C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\blazor.build.boot-extension.json
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\blazor.boot.json
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\fwzn8fvuqu-f41lxkzo9g.gz
-C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\ywbieikc3c-2ba613gp03.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\o443jpnwju-bqjiyaj88i.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\qwhwpy2s0b-c2jlpeoesf.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\hspagil34f-erw9l3u2r3.gz
@@ -1065,8 +1060,6 @@ C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\33zbjmm7v7-tjcz0u77k5.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\jf60wa3jk8-tptq2av103.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\0hs4oe2w70-lfu7j35m59.gz
-C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\hpe7xyt07n-zika5eaegw.gz
-C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\72hbyximuu-rlb6lfah1s.gz
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\staticwebassets.development.json
@@ -1076,10 +1069,18 @@ C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\refint\BlazorApp1.dll
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\BlazorApp1.pdb
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\ref\BlazorApp1.dll
-C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.ivoc0hby6s.pdb
-C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.f8sx3s57ox.wasm
-C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.ivoc0hby6s.pdb.gz
-C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.f8sx3s57ox.wasm.gz
-C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\rx7sjm95zc-f8sx3s57ox.gz
-C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\kpn7vtgf7q-ivoc0hby6s.gz
-C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\5jzqasczcu-1w1yy5i10y.gz
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\BlazorApp1.sourcelink.json
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\PlantDiseasePOJOS.akqy2ho7sm.pdb
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\PlantDiseasePOJOS.ec39u20k1i.wasm
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\PlantDiseasePOJOS.akqy2ho7sm.pdb.gz
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\PlantDiseasePOJOS.ec39u20k1i.wasm.gz
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\hpe7xyt07n-ec39u20k1i.gz
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\72hbyximuu-akqy2ho7sm.gz
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\ywbieikc3c-5xr6espaoa.gz
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.7ls5qn9kdf.pdb
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.wgoe37e1vd.wasm
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.7ls5qn9kdf.pdb.gz
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.wgoe37e1vd.wasm.gz
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\rx7sjm95zc-wgoe37e1vd.gz
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\kpn7vtgf7q-7ls5qn9kdf.gz
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApp\BlazorApp1\obj\Debug\net9.0\compressed\5jzqasczcu-9p2mzigl5r.gz

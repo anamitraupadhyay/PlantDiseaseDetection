@@ -9,3 +9,4 @@ C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDisease
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\obj\Debug\net9.0\refint\PlantDiseasePOJOS.dll
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\obj\Debug\net9.0\PlantDiseasePOJOS.pdb
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\obj\Debug\net9.0\ref\PlantDiseasePOJOS.dll
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\SharedLibrary\PlantDiseasePOJOS\obj\Debug\net9.0\PlantDiseasePOJOS.sourcelink.json

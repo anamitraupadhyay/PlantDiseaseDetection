@@ -35,3 +35,4 @@ C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApi\PlantDisea
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApi\PlantDiseaseApi\obj\Debug\net9.0\PlantDiseaseApi.pdb
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApi\PlantDiseaseApi\obj\Debug\net9.0\PlantDiseaseApi.genruntimeconfig.cache
 C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApi\PlantDiseaseApi\obj\Debug\net9.0\ref\PlantDiseaseApi.dll
+C:\Users\anami\OneDrive\Desktop\PlantDiseaseDetection\PlantDiseaseApi\PlantDiseaseApi\obj\Debug\net9.0\PlantDiseaseApi.sourcelink.json
