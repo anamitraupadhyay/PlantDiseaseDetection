@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlantDiseaseApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+381010c29b95c079f45df02b703d0af0b7bd58e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bc1d422c92915de857a8d0927762b0712e9259f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlantDiseaseApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlantDiseaseApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ETsRkSKWXnA=",
+  "dgSpecHash": "nNQwXK9uDKU=",
   "success": true,
   "projectFilePath": "C:\\Users\\anami\\OneDrive\\Desktop\\PlantDiseaseDetection\\PlantDiseaseApi\\PlantDiseaseApi\\PlantDiseaseApi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\anami\\.nuget\\packages\\system.text.json\\9.0.8\\system.text.json.9.0.8.nupkg.sha512"
+  ],
   "logs": []
 }

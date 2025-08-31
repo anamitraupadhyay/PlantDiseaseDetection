@@ -4,6 +4,10 @@
     <ProjectReference Include="..\..\SharedLibrary\PlantDiseasePOJOS\PlantDiseasePOJOS.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="9.0.8" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
