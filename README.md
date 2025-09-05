@@ -1,2 +1,2 @@
 # PlantDiseaseDetection
-.NET 9
+.NET 8
