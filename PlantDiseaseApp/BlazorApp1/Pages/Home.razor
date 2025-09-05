@@ -4,14 +4,19 @@
 @inject HttpClient Http
 
 <div class="container my-5">
-    <h3 class="mb-4 text-center">Plant Disease Detection</h3>
+    <h3 class="mb-4 text-center">Plant Disease Detection Using  LLMs</h3>
 
     <EditForm Model="@input" OnValidSubmit="analyze">
         <DataAnnotationsValidator />
         <ValidationSummary />
 
-        <InputText @bind-Value="input.Foldername" placeholder="Folder Name" class="form-control mb-2" />
+        <InputText @bind-Value="input.Foldername" placeholder="Your Name" class="form-control mb-2" />
         <InputFile OnChange="OnFileSelected" class="form-control mb-2" />
+        @if (previewUrl is not null)
+        {
+            <img src="@previewUrl" class="mt-2 img-fluid rounded shadow" style="max-width:200px;" />
+        }
+
 
         <button type="submit" class="btn btn-primary w-100">Analyze</button>
     </EditForm>
@@ -44,6 +49,7 @@
     private InputPOJO input = new();
     private IBrowserFile? selectedFile;
     private OutputPOJO? result;
+    private string? previewUrl;
 
     private async Task analyze()
     {
@@ -72,9 +78,14 @@
         }
     }
 
-    private void OnFileSelected(InputFileChangeEventArgs e)
+    private async void OnFileSelected(InputFileChangeEventArgs e)
     {
         selectedFile = e.File;
         input.Filename = selectedFile.Name;
+
+        using var stream = selectedFile.OpenReadStream(10 * 1024 * 1024);
+        var buffer = new byte[selectedFile.Size];
+        await stream.ReadAsync(buffer);
+        previewUrl = $"data:{selectedFile.ContentType};base64,{Convert.ToBase64String(buffer)}";
     }
 }
