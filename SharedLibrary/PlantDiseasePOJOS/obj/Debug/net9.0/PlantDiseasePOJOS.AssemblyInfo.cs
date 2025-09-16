@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlantDiseasePOJOS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d65c65cdfc60ce807b9c626ec55608bed9d0787")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7455a0777d8fa276c1207f309ba41f4623cf63b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlantDiseasePOJOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlantDiseasePOJOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedLibrary", "SharedLibrary", "{77FE7006-98A7-145D-1E67-4BFC95AACF3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlantDiseaseApi", "PlantDiseaseApi", "{2923BBEE-6335-4DC4-D01C-77DE877EB69D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlantDiseaseApp", "PlantDiseaseApp", "{9C191836-785A-90FC-3F72-EEE7BFFFC813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantDiseasePOJOS", "SharedLibrary\PlantDiseasePOJOS\PlantDiseasePOJOS.csproj", "{57ED4DF8-4255-995F-6571-3D0B8BF44154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantDiseaseApi", "PlantDiseaseApi\PlantDiseaseApi\PlantDiseaseApi.csproj", "{FC3FF091-A7AE-D9A9-AE82-0425F50A2E71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "PlantDiseaseApp\BlazorApp1\BlazorApp1.csproj", "{50C80B79-9E2E-15BE-849A-2004A59E33B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57ED4DF8-4255-995F-6571-3D0B8BF44154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57ED4DF8-4255-995F-6571-3D0B8BF44154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57ED4DF8-4255-995F-6571-3D0B8BF44154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57ED4DF8-4255-995F-6571-3D0B8BF44154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3FF091-A7AE-D9A9-AE82-0425F50A2E71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3FF091-A7AE-D9A9-AE82-0425F50A2E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3FF091-A7AE-D9A9-AE82-0425F50A2E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3FF091-A7AE-D9A9-AE82-0425F50A2E71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C80B79-9E2E-15BE-849A-2004A59E33B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C80B79-9E2E-15BE-849A-2004A59E33B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C80B79-9E2E-15BE-849A-2004A59E33B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C80B79-9E2E-15BE-849A-2004A59E33B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57ED4DF8-4255-995F-6571-3D0B8BF44154} = {77FE7006-98A7-145D-1E67-4BFC95AACF3A}
+		{FC3FF091-A7AE-D9A9-AE82-0425F50A2E71} = {2923BBEE-6335-4DC4-D01C-77DE877EB69D}
+		{50C80B79-9E2E-15BE-849A-2004A59E33B9} = {9C191836-785A-90FC-3F72-EEE7BFFFC813}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {629A090C-1BB4-483C-AC8B-D40D1EB3D6A4}
+	EndGlobalSection
+EndGlobal
